@@ -7,13 +7,13 @@ CREATE TABLE patients (
 CREATE TABLE treatments (
     id SERIAL PRIMARY KEY,
     type VARCHAR(255),
-    name VARCHAR(255),
+    name VARCHAR(255)
 );
 
 CREATE TABLE medical_histories (
     id SERIAL PRIMARY KEY,
     patient_id INTEGER,
-    admitted_at DATETIME,
+    admitted_at TIMESTAMP,
     status VARCHAR(255),
     CONSTRAINT patient_id FOREIGN KEY (patient_id) REFERENCES patients(id)
 );
@@ -21,8 +21,8 @@ CREATE TABLE medical_histories (
 CREATE TABLE invoices (
     id SERIAL PRIMARY KEY,
     medical_history_id INTEGER,
-    generated_at DATETIME,
-    payed_at DATETIME,
+    generated_at TIMESTAMP,
+    payed_at TIMESTAMP,
     total_amount DECIMAL,
     CONSTRAINT medical_history_id FOREIGN KEY (medical_history_id) REFERENCES medical_histories(id)
 );
