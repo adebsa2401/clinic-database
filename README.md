@@ -115,6 +115,12 @@ Clone this repository to your desired folder:
 - Twitter: [@Adebsa3](https://twitter.com/adebsa3)
 - LinkedIn: [adebsa](https://linkedin.com/in/adebsa)
 
+👤 **Jonathan Munamire**
+
+- GitHub: [@jonathanmunamire](https://github.com/jonathanmunamire)
+- Twitter: [@amanimunamire](https://twitter.com/amanimunamire)
+- LinkedIn: [Jonathan Munamire](https://www.linkedin.com/in/jonathanmunamire/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
